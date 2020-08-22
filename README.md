@@ -20,3 +20,6 @@
 1. User Signup  ---> /api/user/signup ; signup with username and Password)
 2. User Login  ---> /api/user/login ; Login with username and Password)
 3. User Logout  --->  /api/user/logout ; Resets the JWT.
+
+
+#### To test the TodoAPI , first signup and get the JWT Auth token. Then send the Auth token received as Bearer token in the headers with key 'Authorization'. Then create todos, edit, delete and so on.
